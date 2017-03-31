@@ -9,15 +9,17 @@
 
 header {}
 
-header h1 {}
+header h1 {
+  color: orange;
+  font-size: 3em;
+  
+}
 
-header nav# navBar  {}
+#navBar  {}
 
-header nav# navBar  ul {}
+#navBar  ul {}
 
-header nav# navBar  ul li {}
-
-header nav# navBar  ul li a {}
+#navBar  ul li {}
 
 main {}
 
