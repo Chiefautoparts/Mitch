@@ -1,0 +1,40 @@
+body {
+  background-color: #000000;
+display: inline;
+margin: 0px;
+padding: inherit;
+
+}
+
+
+
+main {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*div img{
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+}*/
+.nisPic{
+
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+}
+/*#nTwo {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+
+}
+
+#nThree {}*/

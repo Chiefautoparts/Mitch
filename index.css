@@ -1,0 +1,43 @@
+#body {
+  background-image:  url("C:/Users/mine/Documents/VSCode/mitchFile/viaBlue/fairground-close.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+header {}
+
+header h1 {}
+
+header nav# navBar  {}
+
+header nav# navBar  ul {}
+
+header nav# navBar  ul li {}
+
+header nav# navBar  ul li a {}
+
+main {}
+
+main section {}
+
+main section h2 {}
+
+main section p {
+  display: inline-block;
+  width: 50%;
+}
+
+main article {}
+
+main h1 {
+  color: orange;
+  display: inline-block;
+  margin: 25px 150px 20px 150px;
+  padding: 10px;
+  font-size: 65px;
+  text-align: center;
+  text-shadow: -3px -2px 0px red;
+}
