@@ -7,39 +7,32 @@
   width: 100%;
 }
 
-header {}
-
-header h1 {
+h1 {
   color: orange;
   font-size: 3em;
-  
 }
 
-#navBar  {}
-
-#navBar  ul {}
-
-#navBar  ul li {}
-
-main {}
-
-main section {}
-
-main section h2 {}
+/*h2 {
+  color: orange;
+  font-size: 2em;
+  border-style: ridge;
+  border-color: #3C024C;
+  border-width: 5px;
+}*/
 
 main section p {
   display: inline-block;
   width: 50%;
 }
 
-main article {}
 
-main h1 {
+
+main  h2 {
   color: orange;
   display: inline-block;
   margin: 25px 150px 20px 150px;
   padding: 10px;
-  font-size: 65px;
+  font-size: 2em;
   text-align: center;
   text-shadow: -3px -2px 0px red;
 }
