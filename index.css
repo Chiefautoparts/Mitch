@@ -1,10 +1,11 @@
-#body {
-  background-image:  url("C:/Users/mine/Documents/VSCode/mitchFile/viaBlue/fairground-close.jpeg");
-  background-repeat: no-repeat;
+body {
+  background-image:  url("C:/Users/mine/Documents/VSCode/Mitch/viaBlue/logo.jpg");
+  background-repeat: repeat;
   background-position: center;
   background-attachment: scroll;
   height: 100%;
   width: 100%;
+  color: orange;
 }
 
 h1 {
@@ -12,27 +13,73 @@ h1 {
   font-size: 3em;
 }
 
-/*h2 {
-  color: orange;
-  font-size: 2em;
+article {
+  display: inline-block;
+}
+
+#hood {
+  height: 30%;
+  width: 20%;
   border-style: ridge;
-  border-color: #3C024C;
-  border-width: 5px;
-}*/
+  border-color: #7a11a5;
+  border-width: 10px;
+  box-shadow: -5px -5px 2px orange;
+}
+
+#openHood {
+  height: 50%;
+  width: 50%;
+  border-style: ridge;
+  border-color: #7a11a5;
+  border-width: 10px;
+  box-shadow: -5px -5px 2px orange;
+}
+
+#fairOne {
+  height: 40%;
+  width: 40%;
+  border-style: ridge;
+  border-color: #7a11a5;
+  border-width: 10px;
+  box-shadow: -5px -5px 2px orange;
+}
+#fairClose {
+  height: 90%;
+  width: 90%;
+  border-style: ridge;
+  border-color: #7a11a5;
+  border-width: 10px;
+  box-shadow: -5px -5px 2px orange;
+}
 
 main section p {
   display: inline-block;
   width: 50%;
 }
 
+section {
+  font-family: 'Anton', sans-serif;
+  border-style: ridge;
+  border-color: #7a11a5;
+  border-width: 5px;
+  margin: 10px 25px 10px 25px;
+  text-align: center;
+  text-shadow: 2px 3px 3px black;
+}
 
-
-main  h2 {
+h2 {
+  font-family: 'Revalia', cursive;
   color: orange;
   display: inline-block;
   margin: 25px 150px 20px 150px;
   padding: 10px;
-  font-size: 2em;
+  font-size: 45px;
   text-align: center;
-  text-shadow: -3px -2px 0px red;
+}
+
+h3 {
+  font-family: 'Revalia', cursive;
+  color: orange;
+  font-size: 35px;
+
 }
