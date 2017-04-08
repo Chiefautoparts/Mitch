@@ -19,6 +19,10 @@ h1 {
   text-decoration: underline;
   text-shadow: -3px -3px 5px #6B238E;
 }
+#navBar {
+  display: inline-block;
+  padding: 7px;
+}
 
 article {
   display: inline-block;
@@ -51,8 +55,8 @@ article {
   box-shadow: -5px -5px 2px orange;
 }
 #fairClose {
-  height: 400px;
-  width: 250px;
+  height: 500px;
+  width: 350px;
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
