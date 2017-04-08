@@ -10,7 +10,14 @@ body {
 
 h1 {
   color: orange;
-  font-size: 3em;
+  font-size:70px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-weight: 900;
+  font-style: oblique;
+  text-decoration: underline;
+  text-shadow: -3px -3px 5px #6B238E;
 }
 
 article {
@@ -18,8 +25,8 @@ article {
 }
 
 #hood {
-  height: 30%;
-  width: 20%;
+  height: 40%;
+  width: 40%;
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
@@ -44,8 +51,8 @@ article {
   box-shadow: -5px -5px 2px orange;
 }
 #fairClose {
-  height: 90%;
-  width: 90%;
+  height: 400px;
+  width: 250px;
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
@@ -62,7 +69,8 @@ section {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 5px;
-  margin: 10px 25px 10px 25px;
+  width: 65%;
+  margin: auto;
   text-align: center;
   text-shadow: 2px 3px 3px black;
 }
@@ -70,9 +78,9 @@ section {
 h2 {
   font-family: 'Revalia', cursive;
   color: orange;
-  display: inline-block;
-  margin: 25px 150px 20px 150px;
-  padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 5px;
   font-size: 45px;
   text-align: center;
 }
