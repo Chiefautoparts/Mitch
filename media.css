@@ -1,40 +1,21 @@
 body {
   background-color: #000000;
-display: inline;
-margin: 0px;
-padding: inherit;
-
-}
-
-
-
-main {
-  background-color: #000000;
+  display: inline;
   margin: 0px;
-  padding: 0px;
+  padding: inherit;
+  background-image: url("C:/Users/mine/documents/VSCode/Mitch/viaBlue/output.jpg");
+  background-repeat: repeat;
+  color: orange;
 }
+
 section {
   display: inline;
   margin: 0px;
   padding: 0px;
 }
 
-/*div img{
-  max-width: 100px;
-  max-height: 100px;
-  display: inline-block;
-}*/
-.nisPic{
-
+div .nisPic {
   display: inline-block;
   height: 175px;
   width: 175px;
 }
-/*#nTwo {
-  max-width: 100px;
-  max-height: 100px;
-  display: inline-block;
-
-}
-
-#nThree {}*/

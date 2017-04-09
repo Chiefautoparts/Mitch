@@ -22,10 +22,17 @@ h1 {
 #navBar {
   display: inline-block;
   padding: 7px;
+  text-align: center;
+  background-color: #000000;
+  border-color: #7a11a5;
+  color: orange;
+  text-decoration: underline;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 article {
-  display: inline-block;
+  display: block;
 }
 
 #hood {
