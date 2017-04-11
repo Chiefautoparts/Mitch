@@ -1,8 +1,9 @@
 body {
   background-image:  url("C:/Users/mine/Documents/VSCode/Mitch/viaBlue/logo.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
-  background-attachment: scroll;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   color: orange;
@@ -41,7 +42,9 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 #openHood {
@@ -50,7 +53,9 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 #fairOne {
@@ -59,7 +64,9 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 #fairClose {
   height: 500px;
@@ -67,7 +74,9 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 main section p {
