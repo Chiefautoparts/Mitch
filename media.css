@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   display: block;
-  margin: 0px;
+  /*margin: 0px;*/
   padding: inherit;
   background-image: url("C:/Users/mine/documents/VSCode/Mitch/viaBlue/rightRear.jpeg");
   background-size: cover;
@@ -14,7 +14,7 @@ ul {
   list-style: none;
   padding: 15px;
   margin: 10px 150px 10px 150px;
-  box-sizing: content-box;
+  /*box-sizing: content-box;*/
 }
 
 h1 {
