@@ -1,40 +1,42 @@
 body {
   background-color: #000000;
-display: inline;
-margin: 0px;
-padding: inherit;
+  display: block;
+  /*margin: 0px;*/
+  padding: inherit;
+  background-image: url("C:/Users/mine/documents/Coding/VSCode/Mitch/viaBlue/rightRear.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: orange;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  padding: 15px;
+  margin: 10px 150px 10px 150px;
+  /*box-sizing: content-box;*/
+}
+
+h1 {
+  font-family: 'Revalia', cursive;
+  display: block;
+  text-align: center;
 
 }
 
-
-
-main {
-  background-color: #000000;
-  margin: 0px;
-  padding: 0px;
+h2 {
+  font-family: 'Revalia', cursive;
 }
+
 section {
-  display: inline;
-  margin: 0px;
-  padding: 0px;
+  font-family: 'Anton', sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 10px;
 }
 
-/*div img{
-  max-width: 100px;
-  max-height: 100px;
-  display: inline-block;
-}*/
-.nisPic{
-
+div .nisPic {
   display: inline-block;
   height: 175px;
   width: 175px;
 }
-/*#nTwo {
-  max-width: 100px;
-  max-height: 100px;
-  display: inline-block;
-
-}
-
-#nThree {}*/

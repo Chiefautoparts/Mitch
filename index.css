@@ -1,8 +1,11 @@
 body {
+
   background-image:  url("/home/chief/my_programs/Mitch/viaBlue/logo.jpg");
   background-repeat: repeat;
+
   background-position: center;
-  background-attachment: scroll;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   color: orange;
@@ -10,20 +13,40 @@ body {
 
 h1 {
   color: orange;
-  font-size: 3em;
+  font-size:70px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-weight: 900;
+  font-style: oblique;
+  text-decoration: underline;
+  text-shadow: -3px -3px 5px #6B238E;
+}
+#navBar {
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  background-color: #000000;
+  border-color: #7a11a5;
+  color: orange;
+  text-decoration: underline;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 article {
-  display: inline-block;
+  display: block;
 }
 
 #hood {
-  height: 30%;
-  width: 20%;
+  height: 40%;
+  width: 40%;
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 #openHood {
@@ -32,7 +55,9 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 #fairOne {
@@ -41,15 +66,19 @@ article {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 #fairClose {
-  height: 90%;
-  width: 90%;
+  height: 500px;
+  width: 350px;
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 10px;
-  box-shadow: -5px -5px 2px orange;
+  box-shadow:
+    -4px -4px 2px white,
+    -10px -10px 8px teal;
 }
 
 main section p {
@@ -62,7 +91,8 @@ section {
   border-style: ridge;
   border-color: #7a11a5;
   border-width: 5px;
-  margin: 10px 25px 10px 25px;
+  width: 65%;
+  margin: auto;
   text-align: center;
   text-shadow: 2px 3px 3px black;
 }
@@ -70,9 +100,9 @@ section {
 h2 {
   font-family: 'Revalia', cursive;
   color: orange;
-  display: inline-block;
-  margin: 25px 150px 20px 150px;
-  padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 5px;
   font-size: 45px;
   text-align: center;
 }
