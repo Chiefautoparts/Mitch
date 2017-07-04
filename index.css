@@ -1,6 +1,8 @@
 body {
-  background-image:  url("C:/Users/mine/Documents/Coding/VSCode/Mitch/viaBlue/logo.jpg");
-  background-repeat: no-repeat;
+
+  background-image:  url("/home/chief/my_programs/Mitch/viaBlue/logo.jpg");
+  background-repeat: repeat;
+
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
