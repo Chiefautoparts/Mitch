@@ -23,7 +23,7 @@ h1 {
   text-shadow: -3px -3px 5px #6B238E;
 }
 #navBar {
-  display: inline-block;
+  display: inline;
   padding: 7px;
   text-align: center;
   background-color: #000000;
